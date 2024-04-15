@@ -1,0 +1,20 @@
+my_fruits=("guavas","melon","lemon")
+print(my_fruits)
+#To determine how many items a tuple has
+print(len(my_fruits))
+#creating a tuple with one item
+friends=("Joy",)
+print(friends)
+nums=(1,3,4,6,3,7,8,9)
+nums2=nums.count(3)
+print(nums2)
+odds=(5,7,11,1,5)
+odds2=odds.index(1)
+print(odds2)
+best_friends=("Joan","Eve","Eva","Joy")
+print(best_friends[2])
+print(best_friends[-1])
+print(best_friends[0:2])
+squares=(4,9,16,25,36,49)
+if 9 in squares:
+    print("The square of three")
